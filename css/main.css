@@ -64,6 +64,7 @@ h5 {
  	margin-top: 40px;
  }
  .text-menu {
+ 	max-width: 550px;
 	position: relative;
 	left: 800px;
 	bottom: 45px;
@@ -83,6 +84,12 @@ button {
 	border-radius: 5px;
 	border: 1px solid #FFF;
 }
+button:hover {
+	cursor: pointer;
+}
+.photo-logo:hover{
+	cursor: pointer;
+}
 
 /*FORMULARIO*/
 
@@ -91,7 +98,7 @@ button {
 	width: 570px;
 	background-color: #FFF;
 	position: absolute;
-	left: 800px;
+	left: 794px;
 	top: 112px;
 	padding-top: 30px;
 	padding-left: 70px;
@@ -286,6 +293,9 @@ ul img {
 	max-width: 690px;
 	border: 1px solid #FFF;
 	margin-bottom: 50px;
+}
+.icon:hover {
+	cursor: pointer;
 }
 
 
