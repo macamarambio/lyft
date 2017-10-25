@@ -1,3 +1,295 @@
-/*
- * Estilos de tu proyecto
- */
+/*Estilos de tu proyecto */
+/*Clases Reutilizables*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*TEXT STYLE*/
+
+h1{
+	font-size: 40px;
+}
+h2{
+	font-size: 28px
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 16px;
+}
+h5 {
+	font-size: 14px;
+}
+
+/*HEADER SECCION SUPERIOR*/
+
+.header-top {
+ 	background-image: url(../assets/images/hero.gif);
+ 	background-size: 100%;
+ 	background-position: center;
+	width: auto;
+	height: 540px;
+ }
+
+ /*MENU*/
+
+.menu {
+ 	height: 112px;
+ 	width: 100%;
+ 	display: inline-block;
+ 	/*position: fixed;*/
+ }
+.menu img {
+ 	width: 65px;
+ 	height: auto;
+ 	margin-left: 80px;
+ 	margin-top: 40px;
+ }
+ .text-menu {
+	position: relative;
+	left: 800px;
+	bottom: 45px;
+}
+.menu a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 18px;
+	margin-right: 50px;
+}
+button {
+	width: 95px;
+	height: 45px;
+	background-color: transparent;
+	color: #FFF;
+	font-size: 18px;
+	border-radius: 5px;
+	border: 1px solid #FFF;
+}
+
+/*FORMULARIO*/
+
+.driver-form {
+	height: 430px;
+	width: 570px;
+	background-color: #FFF;
+	position: absolute;
+	left: 800px;
+	top: 112px;
+	padding-top: 30px;
+	padding-left: 70px;
+	z-index:100;
+}
+.driver-form h1,h4 {
+	color: #352384;
+	margin-bottom: -10px;
+}
+form input {
+	background-color: transparent;
+	border: none;
+	outline: 0;
+	display: inline-block;
+	font-size: 16px;
+	color: #3A383A;
+	position: relative;
+	bottom: 60px;
+	padding: 5px;
+}
+form p {
+	padding-left: 5px;
+	color: #BEC7DB;
+	font-size: 16px;
+	margin-top: 50px;
+}
+.line {
+	max-width: 450px;
+	border: 0.5px solid #352384;
+	position: relative;
+	bottom: 70px;
+	right: 30px;
+}
+.button-driver {
+	position: relative;
+	bottom: 60px;
+}
+.button-driver button {
+	width: 185px;
+	height: 50px;
+	background-color: #ff00bf;
+	color: #FFF;
+	border-radius: 10px;
+}
+.button-driver a {
+	color: #728099;
+	margin-left: 20px;
+}
+.driver-text {
+	font-size: 10px;
+	position: relative;
+	bottom: 50px;
+}
+.driver-text p{
+	color:#728099;
+}
+.driver-text a{
+	text-decoration: none;
+	color: #ff00bf;
+}
+/*SECCION TRANSICION GRADIENTE*/
+.gradient {
+	height: 112px;
+	width: 100%;
+	background: linear-gradient(transparent,#76278f);
+	margin-top: -112px;
+}
+/*HEADER SECCION INFERIOR*/
+
+.header-bottom {
+ 	width: 100%;
+ 	height: 640px;
+	background: linear-gradient(#76278f,#2b1e66);
+	background-position: center;
+ }
+.bottom-text {
+	margin-left: 160px;
+	color: #FFF;
+	padding: 10px;
+	position: relative;
+	top: 40px;
+}
+.bottom-text div {
+	max-width: 465px;
+}
+.bottom-text h2{
+	margin-bottom: 10px;
+}
+#last-h2 {
+	margin-top: 0px;
+}
+.bottom-text p {
+	line-height: 24px;
+	margin-bottom: 60px;
+}
+.phone img {
+	max-height: 490px;
+	width: auto;
+	position: relative;
+	left: 600px;
+	bottom: 520px;
+}
+
+/*SECCION VIDEOS*/
+iframe {
+	width: 910px;
+	height:512px;
+}
+.video {
+	display: inline-block;
+	float: left;
+	height: 512px;
+	width: 100%;
+}
+.text-video {
+	max-width: 350px;
+	height: 100%;
+	color: #333447;
+	margin-left: 55px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.paragraph {
+	line-height: 24px;
+}
+
+#v1 {
+	float: right;
+
+}
+#v2 {
+	float: left;
+}
+#v3 {
+	float: right;
+}
+
+
+/*SECCION FINAL FOOTER*/
+
+#final-section {
+	margin: 0;
+	height: 650px;
+	clear: both;
+	background-color: #333447;
+	color: #FFF;
+	text-align: center;
+}
+.footer-text {
+	text-align: left;
+}
+.footer-link {
+	text-decoration: none;
+	color: #FFF;
+	margin-left: 10px;
+	text-align: left;
+	font-size: 14px;
+}
+.footer-link:hover {
+	color: #ff00bf;
+	text-decoration: underline;
+}
+
+ul {
+	margin-top: 50px;
+	margin-left: 50px;
+	list-style: none;
+	line-height: 50px;
+	float: left;
+}
+ul img {
+	width: 160px;
+}
+#img {
+	margin-left: 250px;
+	margin-top: 100px;
+}
+.footer-icons {
+	clear: both;
+}
+.icon {
+	display: inline-block;
+	font-size: 16px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+	padding: 10px;
+	margin: 60px 30px 20px 30px;
+}
+.footer-icons hr {
+	max-width: 690px;
+	border: 1px solid #FFF;
+	margin-bottom: 50px;
+}
+
+
+#copyright {
+	font-weight: 200;
+}
+
