@@ -39,15 +39,6 @@ h5 {
 	font-size: 14px;
 }
 
-/*HEADER SECCION SUPERIOR*/
-
-.header-top {
- 	background-image: url(../assets/images/hero.gif);
- 	background-size: 100%;
- 	background-position: center;
-	width: auto;
-	height: 540px;
- }
 
  /*MENU*/
 
@@ -90,6 +81,16 @@ button:hover {
 .photo-logo:hover{
 	cursor: pointer;
 }
+
+/*HEADER SECCION SUPERIOR*/
+
+.header-top {
+ 	background-image: url(../assets/images/hero.gif);
+ 	background-size: 100%;
+ 	background-position: center;
+	width: auto;
+	height: 540px;
+ }
 
 /*FORMULARIO*/
 
