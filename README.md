@@ -5,7 +5,8 @@
 + La tipografīa utilizada es Montserrat.
       - en la parte superior del documento `main.css` se especifican los estilos de texto. 
 
-+ El sitio esta estructurado 3 con secciones principales
++ El sitio esta estructurado 3 con secciones principales:
+
 	- Header
 		- Menú
 		- Sección Superior
